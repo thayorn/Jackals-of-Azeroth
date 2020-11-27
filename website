@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Сайт гильдии "Шакалы Азерота"</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="">
+          <img
+            src="D:\Фронтэнд\Сайт_Шакалов_Азерота\LOGO-end.png"
+            class="logo"
+          />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#Гильдия">о нас</a></li>
+            <li><a href="#Тайорн">бойцы</a></li>
+            <li><a href="">discord</a></li>
+            <li><a href="">boost</a></li>
+            <li><a href="">регистрация</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <div class="background-Nzoth">
+        <div class="container">          
+          <div class="row-Nzoth">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\LOGO-end.png">
+            <h1><a name="Гильдия">Гильдия "Шакалы Азерота"</a></h1>
+            <p>Появилась в кругу друзей для совместной игры в середине дополнения "Battle for Azeroth".<br>
+             Совместными усилиями поимели вырвавшегося с цепи Нзота "Тинтаклю" - и отправили<br> к праотцам.</p>            
+            <div class="col-1-3"><h2 class="row-Nzoth-1-img-1">ТЫ!</h2></div>
+            <div class="col-1-3"><h2 class="row-Nzoth-1-img-2">НЕ!!</h2></div>
+            <div class="col-1-3"><h2 class="row-Nzoth-1-img-3">ПРОЙДЁШЬ!!!</h2></div>
+            </p>           
+            <div class="col-1-4"><h3 class="row-Nzoth-2-img-1">Освоили эпохалки 15+ уровня.</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-2-img-2">Танцевали под луной.</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-2-img-3">Убивали одиночек толпой.</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-2-img-4">Гасили демон-хантеров в палатках..</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-3-img-1">Преодолели барьер "полторашки"!</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-3-img-2">Фармили орду на "классике"</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-3-img-3">Ежедневно добирались до воды..</h3></div>
+            <div class="col-1-4"><h3 class="row-Nzoth-3-img-4">Унижали насмешливой походкой.</h3></div>            
+          </div>          
+        </div>
+      </div>
+      <div class="background-dark">
+        <div class="row-dark">
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_111820_000031.jpg">
+            <h2><a name="Тайорн">Тайорн</a></h2>
+            <span>Шериф из Зулдазара</span>
+          </div>         
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_103020_125545.jpg">
+            <h2>Лэс</h2>
+            <span>Тайный любовник разлагающейся Сильваны</span>
+          </div>
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_103020_111447.jpg">
+            <h2>Шадоустаф</h2>
+            <span>Гладиатор</span>            
+          </div>
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_103020_201503.jpg">
+            <h2>Квен</h2>
+            <span>"Этого забрал!..Этого тоже убил!..А этот сам откис.."</span>
+          </div>
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_103020_204056.jpg">
+            <h2>Простоцарь</h2>
+            <span>Креативный подход к никам</span>
+          </div>
+          <div class="col-1-6">
+            <img src="D:\Фронтэнд\Сайт_Шакалов_Азерота\WoWScrnShot_110720_022423.jpg">
+            <h2>Мелонбласт</h2>
+            <span>Батя.</span>
+          </div>
+        </div>       
+      </div>
+      <div class="background-cherry">
+        <div class="container">
+          <div class="row-register">
+            <div class="col-1-2">
+              <form class="form-1">
+                <div class="form-inner">
+                  <h4>Регистрация</h4>
+                  <input type="email" class="form-input" placeholder="E-mail">
+                  <input type="text" class="form-input" placeholder="Имя">
+                  <input type="password" class="form-input" placeholder="Пароль">
+                  <button type="button" class="form-button">Отправить</button>
+                </div>
+              </form>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>   
+    <footer>
+      <div class="container">
+        <div class="row-footer">
+          <span>Made by FroloWal</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
